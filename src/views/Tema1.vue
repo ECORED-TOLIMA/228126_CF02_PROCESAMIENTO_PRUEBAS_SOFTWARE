@@ -28,7 +28,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema1/img03.jpg')
+          img(src='@/assets/curso/tema1/img03.png')
       .col.col-lg-8.col-12.order-lg-2.order-2
         .cajon.cajon.C01.color-primario.px-4.py-3.mb-4
           p.mb-0(data-aos="fade-down") Las técnicas de análisis de requisitos permiten examinar, organizar y comprender la información recopilada durante la etapa de elicitación, con el fin de transformar las necesidades de los usuarios en requisitos claros, estructurados y comprensibles para el equipo de desarrollo. Estas técnicas facilitan la identificación de relaciones entre los requisitos, la detección de inconsistencias y la definición del alcance funcional del sistema.

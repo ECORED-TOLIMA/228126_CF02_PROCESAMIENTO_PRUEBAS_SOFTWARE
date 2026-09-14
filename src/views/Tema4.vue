@@ -16,7 +16,7 @@
           p.mb-0(data-aos="fade-down") En los proyectos de desarrollo de <em>software</em>, los requisitos no son elementos estáticos. A lo largo del proceso pueden surgir cambios derivados de nuevas necesidades del negocio, ajustes tecnológicos, restricciones del entorno o mejoras identificadas durante las etapas de diseño, desarrollo y pruebas. Por esta razón, la gestión de requisitos permite controlar dichos cambios de forma organizada, evitando inconsistencias y garantizando que todas las modificaciones sean evaluadas, aprobadas y documentadas.
         p.mb-0 Una adecuada gestión de requisitos también facilita la trazabilidad, es decir, la posibilidad de rastrear cada requisito desde su origen hasta su implementación, pruebas y validación. Esto permite verificar que todas las funcionalidades definidas en la etapa de análisis se encuentren correctamente desarrolladas y que el sistema cumpla con los objetivos planteados inicialmente.
     p.mb-4(data-aos="fade-down") Dentro de la gestión de requisitos se desarrollan diferentes actividades fundamentales que permiten mantener la coherencia y calidad de la información del proyecto. Entre las más importantes se encuentran:
-    .cajon.cajon.C06.p-5.mb-4
+    .cajon.cajon.C08.p-5.mb-4
       SlyderB(:datos="datosSlyder")
     p.mb-0(data-aos="fade-down") Una gestión adecuada de requisitos contribuye a reducir errores en el desarrollo, mejorar la comunicación entre los participantes del proyecto y garantizar que el <em>software</em> entregado responda de manera efectiva a las necesidades para las cuales fue diseñado. En consecuencia, este proceso se convierte en un elemento clave para el éxito de los proyectos de <em>software</em>, especialmente en entornos donde los cambios y la evolución de los sistemas son frecuentes.
     separador
@@ -28,7 +28,7 @@
         figure
           img(src='@/assets/curso/tema4/img08.svg')
       .col.col-lg-9.col-12.order-lg-1.order-2
-        .cajon.cajon.C01.color-secundario.px-4.py-3.mb-4
+        .cajon.cajon.C01.color-primario.px-4.py-3.mb-4
           p.mb-0(data-aos="fade-down") Los requisitos fijos corresponden a aquellas funcionalidades o características del sistema que han sido definidas desde el inicio del proyecto y que deben cumplirse obligatoriamente según lo establecido en el contrato. Estos requisitos no pueden modificarse fácilmente durante el proceso de desarrollo, ya que representan compromisos formales entre las partes. Generalmente, se utilizan en proyectos con enfoques tradicionales de desarrollo, donde el alcance del sistema se define de manera detallada desde las etapas iniciales.
         p.mb-0 Por otro lado, los requisitos variables son aquellos que pueden ajustarse o modificarse durante el desarrollo del proyecto en función de nuevas necesidades, cambios en el entorno organizacional o retroalimentación de los usuarios. Este tipo de requisitos se gestiona mediante procedimientos de control de cambios previamente definidos en el contrato. Los requisitos variables son más comunes en proyectos que utilizan metodologías ágiles, donde se promueve la adaptación continua a las necesidades del cliente.
     .row.cajon.C02.justify-content-center.align-items-stretch.mb-4.p-4
@@ -81,7 +81,7 @@
           img(src='@/assets/curso/tema4/img11.jpg')
       .col.col-lg-7.col-12.order-lg-1.order-2
         p.mb-4 La diferenciación entre requisitos fijos y variables permite establecer con mayor claridad el alcance del proyecto, definir mecanismos de control frente a cambios y evitar conflictos entre las partes involucradas. Asimismo, contribuye a mejorar la planificación, el seguimiento del desarrollo del <em>software</em> y la gestión de riesgos asociados a modificaciones en los requisitos.
-        .cajon.cajon.C01.color-secundario.p-4.mb-0
+        .cajon.cajon.C01.color-primario.p-4.mb-0
           p.mb-0(data-aos="fade-down") En la práctica, muchos contratos de <em>software</em> combinan ambos tipos de requisitos, estableciendo un conjunto de funcionalidades obligatorias que deben cumplirse y un conjunto de requisitos susceptibles de cambio, los cuales pueden ajustarse mediante acuerdos formales durante el desarrollo del proyecto. De esta manera se busca equilibrar la estabilidad del proyecto con la flexibilidad necesaria para adaptarse a nuevas necesidades.
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
@@ -138,26 +138,26 @@
               p.text-bold(data-aos="fade-down") Entre las principales funciones que ofrecen las herramientas de gestión de requisitos se encuentran:
                 ul.lista-ul--color.mt-4(data-aos="fade-down")
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-cloud
                     p.mb-0 Registro y documentación estructurada de requisitos funcionales y no funcionales.
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-cloud
                     p.mb-0 Priorización y organización de requisitos según su importancia o impacto en el proyecto.
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-cloud
                     p.mb-0 Control de versiones y seguimiento de cambios en los requisitos.
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-cloud
                     p.mb-0 Establecimiento de relaciones de trazabilidad entre requisitos, casos de uso, diseño, desarrollo y pruebas.
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-cloud
                     p.mb-0 Colaboración entre los miembros del equipo mediante comentarios, revisiones y actualizaciones compartidas.
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-cloud
                     p.mb-0 Generación de reportes para facilitar el seguimiento y la toma de decisiones en el proyecto.
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-9.col-12.order-lg-2.order-2
-        .cajon.cajon.C04.px-3.py-2
+        .cajon.cajon.C02.px-3.py-2
           .row.justify-content-center.align-items-center
             p.mb-0(data-aos="fade-down") El uso de estas herramientas resulta especialmente importante en proyectos de <em>software</em> de mediana y gran escala, donde la cantidad de requisitos y la participación de múltiples actores hacen necesario contar con mecanismos que permitan mantener la información organizada y actualizada.
       .col.col-lg-auto.col-8.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
@@ -193,7 +193,7 @@
     p(data-aos="fade-down") Las herramientas de gestión de requisitos pueden clasificarse en diferentes tipos según las funcionalidades que ofrecen, el tipo de proyecto en el que se utilizan y el enfoque metodológico que apoyan. Estas herramientas permiten organizar, documentar, analizar y dar seguimiento a los requisitos del sistema, facilitando la coordinación entre los distintos participantes del proyecto.
     p.mb-4(data-aos="fade-down") En términos generales, las herramientas de gestión de requisitos se pueden agrupar en los siguientes tipos:
 
-    .row.bg-06
+    .row.bg-07
       .col-12
         .p-5
           SlyderA.bg-05.p-4.bg-r8(tipo="b")

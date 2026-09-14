@@ -185,7 +185,7 @@
         p.mb-0(data-aos="fade-down") Durante la elaboración del manual de usuario se revisan las funcionalidades del sistema, los procesos que debe ejecutar el usuario y las condiciones necesarias para su correcto funcionamiento. Este proceso facilita identificar inconsistencias entre los requisitos definidos y el comportamiento real del sistema, lo que convierte al manual en una herramienta útil para validar la correcta interpretación de los requisitos.
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
-        .cajon.cajon.C01.color-secundario.px-4.py-3
+        .cajon.cajon.C01.color-primario.px-4.py-3
           p.mb-0(data-aos="fade-down") Además, el manual de usuario contribuye a mejorar la comprensión del sistema, ya que traduce los requisitos técnicos en instrucciones claras y comprensibles para los usuarios finales, permitiendo confirmar que las funcionalidades del sistema son intuitivas, coherentes y adecuadas para su contexto de uso.
     p.mb-4(data-aos="fade-down") En general, un manual de usuario suele organizarse en las siguientes secciones:
     .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
