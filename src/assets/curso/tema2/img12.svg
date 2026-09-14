@@ -1,0 +1,25 @@
+<svg id="Grupo_1212521" data-name="Grupo 1212521" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_461947" data-name="Rectángulo 461947" width="46.504" height="46.504" transform="translate(0 0)" fill="#19538d"/>
+    </clipPath>
+  </defs>
+  <circle id="Elipse_13890" data-name="Elipse 13890" cx="48" cy="48" r="48" fill="#5a9ad7"/>
+  <path id="Intersección_1" data-name="Intersección 1" d="M0,47.89A47.893,47.893,0,0,1,79.511,11.92L1.1,58.131A48,48,0,0,1,0,47.89Z" transform="translate(0.109 0.107)" fill="#19538d"/>
+  <path id="Trazado_1032916" data-name="Trazado 1032916" d="M40,0A40,40,0,1,1,0,40,40,40,0,0,1,40,0Z" transform="translate(8 8)" fill="#e6f3ff"/>
+  <g id="Grupo_1188343" data-name="Grupo 1188343" transform="translate(22.001 22)">
+    <rect id="Rectángulo_459838" data-name="Rectángulo 459838" width="52" height="52" transform="translate(-1.29 -0.175)" fill="none"/>
+    <g id="Grupo_1212522" data-name="Grupo 1212522" transform="translate(-1.591 -0.575)">
+      <g id="Grupo_1099618" data-name="Grupo 1099618" transform="translate(0.302 0.4)">
+        <rect id="Rectángulo_401104" data-name="Rectángulo 401104" width="51.381" height="52" transform="translate(0)" fill="none"/>
+      </g>
+      <g id="Grupo_1212441" data-name="Grupo 1212441" transform="translate(2.126 3.136)">
+        <g id="Grupo_1212440" data-name="Grupo 1212440" transform="translate(0)" clip-path="url(#clip-path)">
+          <path id="Trazado_1277616" data-name="Trazado 1277616" d="M46.642,0V46.909H10.928V30.384H0V5.464H10.928V0ZM43.977,2.8H13.726V5.464H38.38v24.92H13.726V44.11H43.977ZM35.715,8.262H2.665v4.731a11.132,11.132,0,0,0,.46,1.405,4.229,4.229,0,0,0,3.6,2.265c8.193.566,17.048-.422,25.31-.023a4.345,4.345,0,0,0,3.681-3.648ZM15.059,19.457H6.2a10.5,10.5,0,0,1-1.7-.43c-.637-.223-1.2-.675-1.829-.9v9.4l.2.2h32.85v-9.6c-.573.219-1.045.62-1.628.837a10.637,10.637,0,0,1-1.9.5H23.321V24.92H15.059Zm5.464,0H17.857v2.665h2.665Z" transform="translate(-0.077 0.065)" fill="#19538d"/>
+          <rect id="Rectángulo_461945" data-name="Rectángulo 461945" width="25.531" height="2.736" transform="translate(15.501 38.297)" fill="#19538d"/>
+          <rect id="Rectángulo_461946" data-name="Rectángulo 461946" width="25.531" height="1.824" transform="translate(15.501 33.738)" fill="#19538d"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
