@@ -251,8 +251,6 @@ export default {
     },
   ],
   referencias: [
-    { referencia: 'IEEE 830', link: '' },
-    { referencia: 'ISO/IEC/IEEE 29148', link: '' },
     {
       referencia:
         'IEEE Computer Society. (2014). <em>Guía del SWEBOK: guía para el cuerpo de conocimiento de la ingeniería de <em>software</em></em> (3.ª ed.). IEEE Computer Society Press.',
@@ -335,7 +333,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Oscar Ivan Uribe Ortiz',
+          nombre: 'José Jaime Luis Tang Pinzón',
           cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

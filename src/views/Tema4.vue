@@ -75,14 +75,14 @@
                 i.lista-ul__vineta
                 p.mb-0 Incorporación de funcionalidades adicionales solicitadas por el cliente durante el desarrollo.
             p.mb-0(data-aos="fade-down") Estos requisitos pueden modificarse, ampliarse o ajustarse durante el proyecto mediante acuerdos entre el cliente y el equipo de desarrollo.
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4.align-items-center
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema4/img11.jpg')
       .col.col-lg-7.col-12.order-lg-1.order-2
         p.mb-4 La diferenciación entre requisitos fijos y variables permite establecer con mayor claridad el alcance del proyecto, definir mecanismos de control frente a cambios y evitar conflictos entre las partes involucradas. Asimismo, contribuye a mejorar la planificación, el seguimiento del desarrollo del <em>software</em> y la gestión de riesgos asociados a modificaciones en los requisitos.
         .cajon.cajon.C01.color-primario.p-4.mb-0
-          p.mb-0(data-aos="fade-down") En la práctica, muchos contratos de <em>software</em> combinan ambos tipos de requisitos, estableciendo un conjunto de funcionalidades obligatorias que deben cumplirse y un conjunto de requisitos susceptibles de cambio, los cuales pueden ajustarse mediante acuerdos formales durante el desarrollo del proyecto. De esta manera se busca equilibrar la estabilidad del proyecto con la flexibilidad necesaria para adaptarse a nuevas necesidades.
+          p.mb-0(data-aos="fade-down") En la práctica, muchos contratos de <em>software</em> combinan ambos tipos de requisitos, estableciendo un conjunto de funcionalidades obligatorias que deben cumplirse y un conjunto de requisitos susceptibles de cambio, los cuales pueden ajustarse mediante acuerdos formales durante el desarrollo del proyecto. De esta manera se busca equilibrar la estabilidad del proyecto con la flexibilidad necesaria para adaptarse a nuevas necesidades. En el siguiente ejemplo se contrastan los requisitos fijos y los requisitos variables según su definición, flexibilidad, momento de definición, metodologías asociadas y gestión de cambios:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido
@@ -225,7 +225,7 @@
   
             
 
-    p.mb-4.mt-4(data-aos="fade-down") Además de su clasificación por tipo, las herramientas de gestión de requisitos presentan una serie de características comunes que facilitan su uso dentro de los proyectos de desarrollo de <em>software</em>.
+    p.mb-4.mt-4(data-aos="fade-down") Además de su clasificación por tipo, las herramientas de gestión de requisitos presentan una serie de características comunes que facilitan su uso dentro de los proyectos de desarrollo de <em>software</em>. Por lo anterior, resulta pertinente reconocer las principales características que permiten gestionar, relacionar, actualizar y dar seguimiento a los requisitos durante las distintas etapas del proyecto:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido

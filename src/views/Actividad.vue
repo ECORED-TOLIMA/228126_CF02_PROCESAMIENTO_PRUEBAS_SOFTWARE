@@ -17,7 +17,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Desafío del análisis y gestión de requisitos.',
       titulo: 'Cuestionario',
       introduccion:
         '<br><b> Objetivo:</b> evaluar la comprensión de los conceptos relacionados con el análisis, especificación, validación y gestión de requisitos de <em>software</em>, permitiendo identificar la capacidad para reconocer técnicas, herramientas y procesos utilizados en la definición y control de los requisitos dentro de los proyectos de desarrollo de <em>software</em>.',
@@ -250,7 +250,7 @@ export default {
         {
           id: 9,
           texto:
-            'En los proyectos tradicionales, la documentación de requisitos se caracteriza por',
+            'En los proyectos tradicionales, la documentación de requisitos se caracteriza por:',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
@@ -320,7 +320,8 @@ export default {
         },
         {
           id: 12,
-          texto: 'Un requisito de <em>software</em> se considera válido cuando',
+          texto:
+            'Un requisito de <em>software</em> se considera válido cuando:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -399,30 +400,30 @@ export default {
         },
         {
           id: 15,
-          texto: '¿Qué es un requisito no funcional?',
+          texto:
+            'El manual de usuario puede servir como mecanismo de validación porque:',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Una descripción de las tareas que el sistema debe realizar.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Una restricción sobre los servicios o funciones ofrecidos por el sistema.',
+                'Permite comprobar si las funcionalidades descritas responden a las necesidades del usuario.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Sustituye el análisis de requisitos.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Un error en el código fuente.',
+              texto: 'Permite programar automáticamente el sistema.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Una función que el usuario no necesita.',
+              texto: 'Elimina la documentación técnica.',
               esCorrecta: false,
             },
           ],
@@ -433,30 +434,29 @@ export default {
         },
         {
           id: 16,
-          texto: 'La gestión de cambios en los requisitos busca:',
+          texto: 'En los proyectos de software, los contratos permiten:',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Evitar que el proyecto evolucione.',
+              texto: 'Diseñar el sistema automáticamente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Controlar y rastrear las modificaciones de manera organizada.',
-              esCorrecta: true,
+              texto: 'Programar el software sin análisis.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Permitir cambios sin previo aviso.',
+              texto: 'Eliminar los requisitos del proyecto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Eliminar la comunicación con el cliente.',
-              esCorrecta: false,
+              texto: 'Establecer acuerdos formales entre cliente y proveedor.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
@@ -466,19 +466,26 @@ export default {
         },
         {
           id: 17,
-          texto:
-            '¿Qué técnica de recolección de requisitos implica observar al usuario en su entorno de trabajo?',
+          texto: 'Los requisitos fijos se caracterizan por:',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Etnografía u observación directa.',
+              texto: 'Poder modificarse libremente durante el proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Estar definidos desde el inicio y no cambiar fácilmente.',
               esCorrecta: true,
             },
-            { id: 'b', texto: 'Lluvia de ideas.', esCorrecta: false },
-            { id: 'c', texto: 'Encuestas por correo.', esCorrecta: false },
-            { id: 'd', texto: 'Pruebas unitarias.', esCorrecta: false },
+            { id: 'c', texto: 'Ser opcionales.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'No formar parte del contrato.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con el análisis, la especificación, la validación y la gestión de requisitos de software.',
@@ -487,29 +494,28 @@ export default {
         },
         {
           id: 18,
-          texto:
-            '¿Cuál es el beneficio de utilizar herramientas CASE en la gestión de requisitos?',
+          texto: 'Los requisitos variables se caracterizan por:',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Automatizar el seguimiento y la trazabilidad.',
+              texto: 'Adaptarse a cambios o nuevas necesidades del proyecto.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Reemplazar por completo a los analistas.',
+              texto: 'No poder modificarse.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Reducir la calidad del <em>software</em>.',
+              texto: 'Ser obligatorios en todos los proyectos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Aumentar los errores de documentación.',
+              texto: 'No necesitar documentación.',
               esCorrecta: false,
             },
           ],
@@ -520,21 +526,26 @@ export default {
         },
         {
           id: 19,
-          texto: 'Un requisito es "ambiguo" cuando:',
+          texto: 'Las herramientas de gestión de requisitos permiten:',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Es muy corto.', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Programar el sistema automáticamente.',
+              esCorrecta: false,
+            },
             {
               id: 'b',
-              texto: 'Tiene múltiples interpretaciones posibles.',
-              esCorrecta: true,
+              texto: 'Diseñar la interfaz gráfica.',
+              esCorrecta: false,
             },
-            { id: 'c', texto: 'Está escrito en inglés.', esCorrecta: false },
+            { id: 'c', texto: 'Crear redes informáticas.', esCorrecta: false },
             {
               id: 'd',
-              texto: 'Se puede verificar fácilmente.',
-              esCorrecta: false,
+              texto:
+                'Organizar, controlar y dar seguimiento a los requisitos del proyecto.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
@@ -545,19 +556,41 @@ export default {
         {
           id: 20,
           texto:
-            '¿Qué documento sirve como acuerdo formal entre el cliente y los desarrolladores?',
+            'El control de cambios en los requisitos tiene como finalidad:',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'El manual de usuario.', esCorrecta: false },
-            { id: 'b', texto: 'El código fuente.', esCorrecta: false },
             {
-              id: 'c',
+              id: 'a',
+              texto: 'Evitar cualquier modificación en el proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
               texto:
-                'La especificación de requisitos de <em>software</em> (ERS).',
+                'Registrar, evaluar y gestionar los cambios en los requisitos del sistema.',
               esCorrecta: true,
             },
-            { id: 'd', texto: 'La factura del proyecto.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Eliminar requisitos iniciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el número de usuarios del sistema.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar requisitos iniciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el número de usuarios del sistema.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con el análisis, la especificación, la validación y la gestión de requisitos de software.',

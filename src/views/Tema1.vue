@@ -101,7 +101,7 @@
               img(src='@/assets/curso/tema1/img10.svg' )
           h4.text-center Riesgo del proyecto
           p.text-center Ciertos requisitos pueden implicar mayores riesgos técnicos o de integración, por lo que pueden abordarse en etapas tempranas para reducir incertidumbres.
-    p.mb-4(data-aos="fade-down") Una de las técnicas más utilizadas para priorizar requisitos consiste en clasificarlos según su nivel de importancia.
+    p.mb-4(data-aos="fade-down") Una de las técnicas más utilizadas para priorizar requisitos consiste en clasificarlos según su nivel de importancia. La siguiente tabla ejemplifica al respecto:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido
@@ -148,7 +148,7 @@
             li
               .lista-ol--cuadro__vineta
                 span.text-bold 2
-              | Facilitan el seguimiento de los requisitos a lo largo del ciclo de vida del <em>software</em>.
+              | Facilitan el seguimiento de los requisitos a lo largo del ciclo de vida del <em>&ensp;software</em>.
             li
               .lista-ol--cuadro__vineta
                 span.text-bold 3
@@ -156,7 +156,7 @@
             li
               .lista-ol--cuadro__vineta
                 span.text-bold 4
-              | Mejoran la organización y documentación del desarrollo del <em>software</em>.
+              | Mejoran la organización y documentación del desarrollo del <em>&ensp;software</em>.
             li
               .lista-ol--cuadro__vineta
                 span.text-bold 5
@@ -164,7 +164,9 @@
       .col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure.mb-0
           img(src='@/assets/curso/tema1/img12.svg')
-    p.mb-4(data-aos="fade-down") Una matriz de trazabilidad suele organizarse en forma de tabla, donde se relacionan los requisitos con diferentes elementos del proyecto.
+    p.mb-4(data-aos="fade-down") Una matriz de trazabilidad permite visualizar la relación entre cada requisito y los elementos asociados a su desarrollo y validación. A continuación, se presenta un ejemplo en el que se identifican el requisito, su descripción, el módulo del sistema al que pertenece, el caso de prueba correspondiente y su estado de implementación:
+
+
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido

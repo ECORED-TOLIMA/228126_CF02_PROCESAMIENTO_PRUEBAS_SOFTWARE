@@ -104,13 +104,13 @@
                   ul.lista-ul.mb-0
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0.text-sm-start Propósito del documento
+                      p.mb-0.text-sm-start Propósito del documento.
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Alcance del sistema
+                      p.mb-0 Alcance del sistema.
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Definiciones y abreviaturas
+                      p.mb-0 Definiciones y abreviaturas.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
@@ -119,13 +119,13 @@
                   ul.lista-ul.mb-0
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Perspectiva del producto
+                      p.mb-0 Perspectiva del producto.
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Funciones del sistema
+                      p.mb-0 Funciones del sistema.
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0.text-start Características de los usuarios
+                      p.mb-0.text-start Características de los usuarios.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
@@ -134,13 +134,13 @@
                   ul.lista-ul.mb-0
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Requisitos funcionales
+                      p.mb-0 Requisitos funcionales.
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Requisitos no funcionales
+                      p.mb-0 Requisitos no funcionales.
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Requisitos de interfaz
+                      p.mb-0 Requisitos de interfaz.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
